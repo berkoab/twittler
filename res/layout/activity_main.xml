@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+		<com.google.ads.AdView 
+			   android:id="@+id/ad"
+	           android:layout_width="fill_parent"
+	           android:layout_height="wrap_content"
+	           ads:adSize="BANNER"
+	           ads:adUnitId="@string/admob_id"
+	           ads:loadAdOnCreate="true" />
+		
+		<ListView
+		    android:id="@+id/Tweets"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_above="@+id/StartStopButton"
+		    android:layout_below="@id/ad" />
+
+         <Button
+             android:id="@+id/StartStopButton"
+             style="@color/black_overlay"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:onClick="startStop"
+             android:text="@string/start_button" />
+
+</RelativeLayout>

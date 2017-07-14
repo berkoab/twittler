@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference 
+            android:key="miles"
+            android:title="Distance"
+            android:summary="Define the distance to search in miles."
+            android:defaultValue="5" 
+            android:entries="@array/miles"
+            android:entryValues="@array/milesValues"
+        /> 
+</PreferenceScreen>

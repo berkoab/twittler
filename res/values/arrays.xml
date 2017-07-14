@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="miles">
+        <item name="1">1 mile</item>
+        <item name="5">5 miles</item>
+        <item name="10">10 miles</item>
+        <item name="20">20 miles</item>>
+    </string-array>
+    
+    <string-array name="milesValues">
+        <item name="1">1</item>
+        <item name="50">5</item>
+        <item name="10">10</item>
+        <item name="20">20</item>
+    </string-array>
+</resources>

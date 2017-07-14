@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Twittler</string>
+    <string name="menu_settings">Settings</string>
+	<string name="start_button">Start</string>
+	<string name="stop">Stop</string>
+	<string name="admob_id">ca-app-pub-8775556910991050/9925097125</string>
+	<string name="admob_mediation_id">0bbb36eb5c5346f5</string>
+	<string name="tapfortap_id">b724561c6f58f06276b70264470eb0dd</string>
+	<string name="error_receive_ad">Unable to fetch Ad. Waiting for the next refresh.</string>
+	<string name="OAuthConsumerKey">XJV0CRmApyl5aOUsDpwi9g</string>
+	<string name="OAuthConsumerSecret">MS8gwpAvWcce69VqTIapqg3sH3kvQT3nqlJM4kj2o0</string>
+	<string name="OAuthAccessToken">407790264-C6fAgD8kYAJrN63YTBjulKDT6l3mPt1JdK6WHMUq</string>
+	<string name="OAuthAccessTokenSecret">rBnW8te6O3U6XSlpMl2rwbD4phuJ1UhRahNq8H95qQ</string>
+	<string name="message_start">Press start to get tweets around you within </string>
+	<string name="message_end"> mile(s) of your location: \n</string>
+	<string name="loading">Loading....</string>
+</resources>
